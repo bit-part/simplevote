@@ -55,6 +55,7 @@
                     $this.html(op.votedText);
                 }
                 $(this).toggleClass('voted');
+                return false;
             });
         }); // each
 
