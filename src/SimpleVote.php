@@ -1,6 +1,6 @@
 <?php
 
-namespace tinybeans\simplevote;
+namespace bitpart\simplevote;
 
 class SimpleVote
 {

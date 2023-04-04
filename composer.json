@@ -1,17 +1,17 @@
 {
-    "name": "tinybeans/simplevote",
+    "name": "bitpart/simplevote",
     "description": "This is a package for a simple voting function.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "tinybeans\\simplevote\\": "src/"
+            "bitpart\\simplevote\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Roy Okuwaki",
-            "email": "info@tinybeans.dev"
+            "name": "bit part LLC",
+            "email": "info@bit-part.net"
         }
     ],
     "require": {
