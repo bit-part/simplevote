@@ -1,8 +1,8 @@
 <?php
 
-require_once dirname(__DIR__) . '/src/SimpleVote.php';
+require_once 'vendor/autoload.php';
 
-$vote = new SimpleVote('vote', true);
+$vote = new bitpart\simplevote\SimpleVote('vote', true);
 $response = $vote->exec();
 
 header('Content-Type: application/json; charset=utf-8');
