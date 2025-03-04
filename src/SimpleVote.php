@@ -107,7 +107,7 @@ class SimpleVote
             echo 'Failed to update data file';
             exit();
         }
-
+        chmod($this->dataFilePath, 0644);
         return [ 'count' => $count ];
     }
 
